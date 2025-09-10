@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form creation</title>
+  </head>
+  <body>
+    <form method="post">
+      <p>
+        User ID*
+        <input type="text" name="userid" />
+      </p>
+      <p>
+        Password*
+        <input type="text" name="password" />
+      </p>
+      <p>
+        Confirm password*
+        <input type="text" name="password" />
+      </p>
+      <p>
+        Security Question*
+        <select name="sec_question">
+          <option value="">--Select--</option>
+          <option value="fav_sub">What is your favourite subject?</option>
+          <option value="school">What is the name of your school?</option>
+        </select>
+      </p>
+      <p>
+        Security Answer*
+        <input type="text" name="sequrity_answer" />
+      </p>
+      <p>
+        Preffered Language
+        <select name="language">
+          <option value="english">English</option>
+          <option value="bengali">Bengali</option>
+        </select>
+      </p>
+      <h4>Personal Details</h4>
+      <p>
+        First Name
+        <input type="text" name="fname" />
+      </p>
+      <p>
+        Last Name
+        <input type="text" name="lname" />
+      </p>
+      <p>
+        Gender*
+        <p class="radio">
+          <input type="radio" name="gender" value="male" />Male
+          <input type="radio" name="gender" value="female" />Female
+        </p>
+      </p>
+      <p>
+        Maritial Status*
+        <p class="radio">
+            <input
+              type="radio"
+              name="maritial"
+              value="married"
+            />Married
+            <input
+              type="radio"
+              name="maritial"
+              value="unmarried"
+            />Unmarried
+        </p>
+      </p>
+      <p>
+        Date of Birth*
+        <input type="date" name="dob" />
+      </p>
+      <p>
+        Aadhar No(optional)
+        <input type="text" name="aadharno" />
+      </p>
+      <p>
+        Pan No(Optional)
+        <input type="text" name="panno" />
+      </p>
+      <p>
+        Email*
+        <input type="email" name="email" />
+      </p>
+      <p>
+        Mobile*
+        <input type="tel" name="mobile" />
+      </p>
+      <h4>Residential Address</h4>
+      <p>
+        Street/Locality*
+        <input type="text" name="street" />
+      </p>
+      <p>
+        Country*
+        <select name="country">
+          <option value="india">India</option>
+          <option value="other">Other</option>
+        </select>
+      </p>
+      <p>
+        Pincode
+        <input type="text" name="pincode" />
+      </p>
+      <p>
+        City/Town*
+        <input type="text" name="city" />
+      </p>
+      <p>
+        State*
+        <input type="text" name="state" />
+      </p>
+      <p>
+        Phone
+        <input type="text" name="phone" />
+      </p>
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </body>
+</html>
